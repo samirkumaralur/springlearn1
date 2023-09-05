@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component("animalManagementComponentBean")
 public class AnimalManagement {
+	
 
 	@Qualifier("lionComponentBean")
 	@Autowired
